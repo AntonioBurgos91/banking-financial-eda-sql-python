@@ -1,0 +1,27 @@
+# Ignorar TODO por defecto
+/*
+
+# Excepciones (archivos/directorios a incluir)
+!/.gitignore
+!/.github/
+!/LICENSE
+!/README.md
+!/requirements.txt
+
+#Incluir archivos especificos en cualquier ubicación
+!*.ipynb
+!*.py
+!*.sql
+!*.db
+!*.csv
+!*.xlsx
+
+#Excluir archivos no deseados (auque coincidancon patrones anteriores)
+.ipynb_checkpoints/
+*.pdf
+*.lnk
+*.url
+*.zip
+*.jpeg
+*.webp
+desktop.ini
