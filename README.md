@@ -26,6 +26,8 @@ Este proyecto es una simulación realista de análisis financiero de un banco fi
   - Ciclo de vida del cliente.
 - Visualizaciones interactivas y gráficas explicativas.
 - Exportación de resultados a Excel para informes financieros.
+  
+---
 
 ## ⚠️ Advertencia Importante
 
