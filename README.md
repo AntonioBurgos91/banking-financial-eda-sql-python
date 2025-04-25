@@ -26,3 +26,9 @@ Este proyecto es una simulación realista de análisis financiero de un banco fi
   - Ciclo de vida del cliente.
 - Visualizaciones interactivas y gráficas explicativas.
 - Exportación de resultados a Excel para informes financieros.
+
+## ⚠️ Advertencia Importante
+
+Nota: El archivo principal del proyecto (analisis_financiero_simulacion_banco.ipynb) no ha sido ejecutado en su totalidad debido a su tamaño. GitHub impone límites en la visualización de notebooks:
+Límite de visualización: GitHub puede tener dificultades para renderizar notebooks que superen ciertos tamaños, lo que puede afectar la visualización de salidas y gráficos.
+Recomendación: Para una experiencia completa, se sugiere descargar y ejecutar el notebook localmente.
