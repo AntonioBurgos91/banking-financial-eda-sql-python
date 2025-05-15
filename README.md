@@ -1,36 +1,88 @@
-# 🏦 Análisis Financiero con SQL y Python - Simulación Bancaria
+# 📊 Análisis de Métricas Financieras con Python y SQL
 
-Este proyecto es una simulación realista de análisis financiero de un banco ficticio utilizando Python, SQL y visualización de datos. Está diseñado para mostrar mis habilidades como analista de datos junior: desde la extracción y modelado de datos hasta el análisis de KPIs financieros, segmentación de clientes y visualización de métricas clave.
+## 🧠 Descripción General
 
----
+Este proyecto tiene como objetivo aplicar técnicas de análisis de datos para evaluar el comportamiento financiero de una entidad bancaria a través de métricas clave como **la rentabilidad promedio de activos** y **la morosidad de créditos por monto**. Utilizando Python, SQL y análisis exploratorio de datos (EDA), se construyó una base sólida para la generación de insights orientados a la toma de decisiones estratégicas.
 
-## 📊 Tecnologías utilizadas
-
-- 🐍 Python (Jupyter Notebook)
-- 🗃️ SQL (SQLite3 en memoria)
-- 📈 Plotly, Seaborn, Matplotlib
-- 📊 Pandas, NumPy
-- 📄 Excel (`pandas.ExcelWriter`)
-- 📂 Simulación de datos con `faker`
+El proyecto simula un entorno de análisis financiero real, abarcando desde la limpieza de datos hasta la visualización y la interpretación de patrones clave en el comportamiento de los indicadores por ciudad.
 
 ---
 
-## 📌 Contenido del análisis
+## 🎯 Objetivos del Proyecto
 
-- Creación de una base de datos SQL simulada con clientes, cuentas, transacciones y créditos.
-- Exploración y análisis de datos financieros:
-  - KPIs bancarios: ingresos, gastos, rentabilidad, morosidad.
-  - Análisis del comportamiento de clientes.
-  - Rentabilidad de productos financieros.
-  - Segmentación por ciudades y edades.
-  - Ciclo de vida del cliente.
-- Visualizaciones interactivas y gráficas explicativas.
-- Exportación de resultados a Excel para informes financieros.
-  
+- Realizar un análisis exploratorio de métricas financieras críticas.
+- Utilizar SQL para extracción y consulta de datos relevantes.
+- Desarrollar visualizaciones claras y efectivas para interpretar riesgos y oportunidades.
+- Aplicar técnicas de ciencia de datos para apoyar decisiones de negocio basadas en datos.
+- Consolidar habilidades clave en análisis de datos, programación y comunicación de resultados.
+
 ---
 
-## ⚠️ Advertencia Importante
+## 🧰 Herramientas y Tecnologías
 
-Nota: El archivo principal del proyecto (analisis_financiero_simulacion_banco.ipynb) no ha sido ejecutado en su totalidad debido a su tamaño. GitHub impone límites en la visualización de notebooks:
-Límite de visualización: GitHub puede tener dificultades para renderizar notebooks que superen ciertos tamaños, lo que puede afectar la visualización de salidas y gráficos.
-Recomendación: Para una experiencia completa, se sugiere descargar y ejecutar el notebook localmente.
+- **Lenguaje de programación:** Python 3.x  
+- **Librerías de análisis de datos:** `pandas`, `numpy`  
+- **Visualización de datos:** `matplotlib`, `plotly`  
+- **Base de datos:** SQL (consultas embebidas y análisis de KPIs financieros)  
+- **Entorno de trabajo:** Jupyter Notebook
+
+---
+
+## 📁 Estructura del Proyecto
+
+- `banking-financial-eda-sql-python.ipynb`: Contiene el flujo completo del análisis.
+  - Importación y limpieza de datos
+  - Consultas SQL simuladas sobre las métricas
+  - Análisis exploratorio (EDA)
+  - Visualizaciones interactivas
+  - Conclusiones basadas en los hallazgos
+
+---
+
+## 🔍 Principales Análisis Realizados
+
+- Evaluación de **Rentabilidad Promedio de Activos** por ciudad.
+- Cálculo de la **Tasa de Morosidad por Monto** en diferentes regiones.
+- Análisis cruzado entre rentabilidad y riesgo.
+- Identificación de zonas de alto riesgo financiero y oportunidades de mejora.
+- Segmentación por ciudad para facilitar comparaciones estratégicas.
+
+---
+
+## 💡 Conclusiones
+
+Este análisis proporciona una base sólida para entender la dinámica entre la rentabilidad y el riesgo crediticio. El enfoque basado en datos permite:
+
+- Identificar patrones financieros regionales.
+- Tomar decisiones más informadas para la asignación de crédito.
+- Mejorar la gestión del riesgo operativo y financiero.
+
+---
+
+## 🚀 Posibles Extensiones
+
+- Desarrollo de modelos predictivos para estimar la probabilidad de morosidad.
+- Implementación de dashboards interactivos con Power BI o Dash.
+- Automatización de reportes financieros usando Python.
+- Integración con bases de datos reales para despliegues en producción.
+
+---
+
+## 👨‍💻 Perfil Profesional
+
+Este proyecto forma parte de mi portafolio como **Analista de Datos** con interés en ciencia de datos aplicada a sectores como banca, finanzas y riesgo crediticio. Muestra mi capacidad para trabajar con datos complejos, generar visualizaciones efectivas y comunicar hallazgos de forma clara y orientada al negocio.
+
+---
+
+## 📬 Contacto
+
+¿Te interesa este tipo de análisis o quieres colaborar?
+
+📧 burgosbriales@hotmail.com  
+💼 [LinkedIn - Antonio Burgos](https://www.linkedin.com/in/antonio-burgos91/)
+
+---
+
+## 📝 Licencia
+
+Este proyecto está disponible bajo la Licencia MIT. Puedes reutilizarlo y modificarlo libremente con atribución.
